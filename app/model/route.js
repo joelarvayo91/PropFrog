@@ -1,0 +1,2 @@
+import {NextResponse} from 'next/server';
+export async function GET(){return NextResponse.json({version:'PropFrog Real-Data Model v5',principle:'Use observed inputs only; missing inputs reduce confidence.',mlb:'Empirical-Bayes per-PA event rates + Statcast batter/pitcher contact quality, converted to game probabilities.',nfl:'Recency-weighted actual game logs + season baseline + actual opportunity trend + opponent/role factors.',validation:'Backtest with time-based holdouts; report Brier/log loss for probabilities and MAE/RMSE for projections.'})}
