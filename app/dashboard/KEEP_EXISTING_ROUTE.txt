@@ -1,0 +1,1 @@
+Keep your existing app/dashboard/route.js unchanged. The redesigned page consumes its existing JSON response shape.
